@@ -137,3 +137,6 @@ Join PortfolioProjects.dbo.CovidVaccinations$ V
 	On D.location = V.location
 	and D.date = V.date
 where D.continent is not null 
+
+SELECT *
+FROM PercentPopulationVaccinated
